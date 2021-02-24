@@ -1,0 +1,7 @@
+{
+    "Boolean Expression": "A condition that tests true or false.",
+    "Elif": "Statements that are used if you want to test if a condition is true and a different conditino if false.",
+    "For Loops": "Used to repeat commands for items in a sequence as a list, tuple, dictionary, set or string.",
+    "Tuples": "Similar to a list, but you cannot change the data.",
+    "While Loops": "Used to execute commands while a condition tests true."
+}

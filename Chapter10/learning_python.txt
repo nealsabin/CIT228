@@ -1,0 +1,3 @@
+In Python you can loop through text files.
+In Python you can open and close files.
+In Python you can create classes.
