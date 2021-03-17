@@ -11,7 +11,6 @@ class Fish(Sprite):
         self.settings = ai_game.settings
         self.screen_rect = self.screen.get_rect()
 
-
         #load the fish image and set its rect attr
         self.image = pygame.image.load('project_game_final/images/fish.png')
         self.image = pygame.transform.scale(self.image,(40,40))

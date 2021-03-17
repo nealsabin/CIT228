@@ -120,7 +120,6 @@ class FishInvasion:
 
         self._check_torpedo_fish_collisions()
 
-
     def _check_torpedo_fish_collisions(self):
         """respond to bullet-fish collisions"""
         collisions = pygame.sprite.groupcollide(self.torpedoes,self.fishes, True,True)
@@ -151,7 +150,6 @@ class FishInvasion:
         """check if any fishes have reached the left of the screen"""
         screen_rect = self.screen.get_rect()
         for fish in self.fishes.sprites():
-            #update after test
             if fish.rect.left <= screen_rect.left:
                 self._submarine_hit()
                 break
